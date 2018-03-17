@@ -1,0 +1,36 @@
+.container {
+  border: 5px solid #ffcc5c;
+  display: flex;
+}
+.home  {
+  order:0;
+}
+.logout {
+  order: -1;
+}
+/* flex-start flex-end center space-around
+space-between space-evenly */
+.container > div {
+  padding: 10px;
+  text-align: center;
+  font-size: 2em;
+  color: #ffeead;
+}
+
+html, body {
+  background-color: #f45341;
+  margin: 10px;
+}
+
+.container > div:nth-child(1) {
+  background-color: #96ceb4;	
+}
+
+.container > div:nth-child(2) {
+  background-color: #ff6f69;
+}
+
+.container > div:nth-child(3) {
+  background-color: #88d8b0;
+}
+
